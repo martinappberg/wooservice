@@ -1,8 +1,6 @@
 <?php
 
 require_once( 'lib/woocommerce-api.php' );
-require_once( '/home/drool/public_html/wp-includes/query.php');
-require_once( '/home/drool/public_html/wp-includes/class-wp-meta-query.php');
 
 $consumer_key = $_POST["ck"]; // Add your own Consumer Key here
 $consumer_secret = $_POST["cs"]; // Add your own Consumer Secret here
