@@ -5,7 +5,7 @@ require_once( 'lib/woocommerce-api.php' );
 $consumer_key = $_POST["ck"]; // Add your own Consumer Key here
 $consumer_secret = $_POST["cs"]; // Add your own Consumer Secret here
 $pageNo = $_POST["page"];
-$store_url = 'http://woo.getdrool.co/'; // Add the home URL to the store you want to connect to here
+$store_url = 'http://woocommerce-26207-56177-149146.cloudwaysapps.com/'; // Add the home URL to the store you want to connect to here
 //
 $options = array(
 	'debug'           => true,
