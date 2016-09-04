@@ -19,7 +19,7 @@ try {
 
 	$client = new WC_API_Client( $store_url, $consumer_key, $consumer_secret, $options );
 	$args = array(
-        'filter[limit]' => 5,
+        'filter[limit]' => 50,
         'per_page' => 50,
         'filter[orderby]' => 'meta_value_num',
         'filter[order]' => 'DESC',
